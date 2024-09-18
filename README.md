@@ -2,6 +2,7 @@
 Django API with Caching and Swagger Documentation
 
 # Overview
+## API endpoints
 We have three API endpoints.
 - `http://127.0.0.1:8000/swagger` Swagger documentation.
 - `http://127.0.0.1:8000/api/search` Receives a POST request with search type(users or repositories or issues) &
@@ -18,7 +19,10 @@ Before running the server, ensure the following are installed on your system:
 - `requests` library for making GitHub API calls
 
 ## Install `pipenv`
-## Clone the repository **:
+## Clone the repository
+```bash
+   git clone https://github.com/alex0508djurovic/test-django-be.git
+```
 ## Install `pipenv` if not already installed
 ```bash
     pip install pipenv
